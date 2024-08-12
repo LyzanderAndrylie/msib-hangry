@@ -1,0 +1,30 @@
+{
+  "name": "msib-hangry",
+  "version": "1.0.0",
+  "description": "Hangry's Case Study Project in the MSIB 7 Program",
+  "main": "./dist/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tspc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "format": "prettier ./src --write",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "Lyz",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.2.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.3.3",
+    "ts-patch": "^3.2.1",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1",
+    "typescript-transform-paths": "^3.4.10"
+  }
+}
